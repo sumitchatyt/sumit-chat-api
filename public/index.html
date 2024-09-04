@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Chat PRoject</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <section class="chat__section">
+        <div class="brand">
+            <img height="40" src="/wassup.png" alt="">
+            <h1>Sumit Chat Project :)</h1>
+        </div>
+        <div class="message__area"></div>
+        <div>
+            <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
+        </div>
+    </section>
+    
+    <!-- Song Search and Playback Section -->
+    <section class="music__section">
+        <input type="text" id="searchInput" placeholder="Search for a song...">
+        <button id="searchButton">Search</button>
+        <div id="results"></div>
+        <div id="player" style="display:none;">
+            <h2 id="songTitle"></h2>
+            <img id="songThumbnail" width="200">
+            <button id="playPauseButton">Play</button>
+        </div>
+    </section>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+    <script src="/script.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+</body>
+
+</html>

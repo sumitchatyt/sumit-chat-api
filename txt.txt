@@ -1,0 +1,10 @@
+<div class="incoming messege">
+                <h4>Sumit</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, possimus ipsum. Nostrum a tempora minima unde libero amet accusamus nesciunt commodi dignissimos reiciendis? Soluta laboriosam voluptatum eligendi veritatis adipisci optio?</p>
+
+            </div>
+            <div class="outgoing messege">
+                <h4>Sumit</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, possimus ipsum. Nostrum a tempora minima unde libero amet accusamus nesciunt commodi dignissimos reiciendis? Soluta laboriosam voluptatum eligendi veritatis adipisci optio?</p>
+
+            </div>
